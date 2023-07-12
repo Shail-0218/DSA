@@ -1,0 +1,20 @@
+cin.getline() function is used when you give input which contain space between them like "Shailendra Sahu"
+for eg; if you take input as "shail sahu" and then try to print it it will only print "shail" so it's better to use cin.getline()
+
+
+cin.getline(stringName/arrayName , size , till where you want )
+or
+cin.getline(stringName/arrayName , from 0 to till where you want )
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+// your code goes here
+char myName[200];
+cout<<"Please enter your name my friend: ";
+cin.getline(myName,200);
+cout<<"My name is "<< endl;
+return 0;
+}
