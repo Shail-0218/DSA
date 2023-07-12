@@ -1,0 +1,24 @@
+// How to link One .CPP to another .CPP
+
+// for eg: You have one class file 
+
+
+// student.cpp
+
+class Student{
+  public:
+    int age;
+    int rollNumber;
+};
+
+// studentUse.cpp
+
+#include<bits/stdc++.h>
+#include "student.cpp"                                     //  <--------  As you can see we are connecting two CPP
+using namespace std;
+
+int main(){
+// write your code here
+
+return 0;
+}
